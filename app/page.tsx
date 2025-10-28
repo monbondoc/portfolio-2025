@@ -9,9 +9,9 @@ import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
-const Home = () => {
-  const titles = ["UI/UX Designer", "Full Stack Developer", "Graphic Designer"];
+const titles = ["UI/UX Designer", "Full Stack Developer", "Graphic Designer"];
 
+const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -32,7 +32,7 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
-          <div className="text-center xl:text-left order-2 xl:order-none">
+          <div className="text-center xl:text-left order-2 xl:order-0">
             <span className="text-xl">
               Aspiring <span className={`text-accent transition-opacity duration-500 ${fade ? "opacity-100" : "opacity-0"}`}>{titles[currentIndex]}</span>
             </span>
