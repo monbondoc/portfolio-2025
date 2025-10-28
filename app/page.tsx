@@ -39,7 +39,7 @@ const Home = () => {
             <h1 className="h1">
               Hello, I&apos;m <br /> <span className="text-accent">Raymond Bondoc</span>
             </h1>
-            <p className="max-w-[600px] mb-9 text-white/80">I am a Graphic Designer with a foundation in Electronics Engineering. This background fuels my passion for crafting elegant digital experiences and drives me to learn programming languages and technologies. I&apos;m actively expanding my expertise into UI/UX Design and Full Stack Development, motivated by the curiosity to not just design the vision, but to help build the entire system.</p>
+            <p className="max-w-[600px] mb-9 text-white/80 px-6 xl:px-0">I am a Graphic Designer with a foundation in Electronics Engineering. This background fuels my passion for crafting elegant digital experiences and drives me to learn programming languages and technologies. I&apos;m actively expanding my expertise into UI/UX Design and Full Stack Development, motivated by the curiosity to not just design the vision, but to help build the entire system.</p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
@@ -47,7 +47,7 @@ const Home = () => {
                 <FiDownload className="text-xl"></FiDownload>
               </Button>
               <div className="mb-8 xl:mb-0">
-                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration:500" />
+                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500" />
               </div>
             </div>
           </div>
