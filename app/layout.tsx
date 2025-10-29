@@ -53,7 +53,9 @@ export default function RootLayout({
       <body className={`${openSauce.variable} antialiased`}>
         <Header />
         <StairTransition />
-        <PageTransition>{children}</PageTransition>
+        <PageTransition>
+          <main className="container mx-auto px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">{children}</main>
+        </PageTransition>
       </body>
     </html>
   );
