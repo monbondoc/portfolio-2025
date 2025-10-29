@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam praesentium quaerat iusto veritatis.",
+    description: "Creating simple, effective websites with clean layouts & essential features that help businesses get online & connect with their audience.",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX Design",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam praesentium quaerat iusto veritatis.",
+    description: "Designing clear page layouts, thoughtful user flows, & accessible interfaces that prioritize ease of use & create positive first impressions.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam praesentium quaerat iusto veritatis.",
+    title: "Graphic Design",
+    description: "Creating eye-catching social media graphics, brand materials, & visual content that elevate your digital presence & engage your audience.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam praesentium quaerat iusto veritatis.",
+    title: "Bookkeeping",
+    description: "Recording & organizing your daily transactions, receipts, & expenses with accuracy to keep your financial records clear & up-to-date.",
     href: "",
   },
 ];
